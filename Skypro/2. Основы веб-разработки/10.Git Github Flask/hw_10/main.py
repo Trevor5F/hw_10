@@ -28,8 +28,7 @@ def skill(skills):
     candidate_str = '<pre>'
 
     for candidate in candidates.values():
-        candidate_skills = candidate['skills'].lower()
-        print(candidate_skills)
+        candidate_skills = candidate['skills'].lower().split(', ')
         if skills in candidate_skills:
             candidate_str += f'{candidate["name"]}<br>{candidate["position"]}<br>{candidate["skills"]}<br><br>'
     candidate_str += '</pre>'
