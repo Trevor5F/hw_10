@@ -1,5 +1,4 @@
 import json
-from pprint import  pprint
 
 def load_candidates():
     with open ('candidates.json', 'r', encoding='utf-8') as file:
