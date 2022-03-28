@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from  utils import load_candidates_from_json, get_candidate, get_candidates_by_name, get_candidates_by_skill
+from utils import load_candidates_from_json, get_candidate, get_candidates_by_name, get_candidates_by_skill
 
 app = Flask(__name__)
 
